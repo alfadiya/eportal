@@ -593,7 +593,7 @@
     color: #515BAE;
     font-size: 14px;
     font-weight: 500;
-    /* text-decoration: none; */
+
 }
 
 .legal-complainces span {
@@ -620,7 +620,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* background-color: #515BAE; Default color */
+
     margin-bottom: 5px;
 }
 
@@ -633,13 +633,7 @@
     margin: 0;
     text-align: center;
 }
-/* The legal compliances section ends here */
 
-/* .company-info-container{
-
-} */
-
-/* The 2nd side of the screen with 2 tables starts here */
 .task-container{
     width: 100%;
 }
@@ -744,10 +738,10 @@ h2 {
     text-wrap: nowrap;
     color: #6A6A6D;
     background: #F1F1F5;
-    width: 100px; /* Set a fixed width */
-    height: 24px; /* Fixed height to ensure uniformity */
-    display: flex; /* Use flex to handle content alignment */
-    align-items: center; /* Center content vertically */
+    width: 100px;
+    height: 24px; 
+    display: flex;
+    align-items: center; 
     justify-content: center; /* Center content horizontally */
     border: 1px solid #CECED1; /* Ensure border is applied */
     opacity: 1; /* Set opacity to fully visible */
@@ -775,9 +769,7 @@ h2 {
      }
 
      .dashboard{
-        /* flex: 1; */
-        /* gap: 2rem; */
-        /* width: 26.43rem; */
+        
         padding:1rem 1rem;
         background-color: rgba(248, 249, 255, 1);
     }
@@ -792,14 +784,6 @@ h2 {
         display: none;
         position: absolute;
     }
-    /* #task td:nth-of-type(1)::before{
-        /* content:'task  ' ; */
-    
-    /* } */
-
-    /* #task th:nth-of-type(1){
-        content: none;
-    } */
 
     .tasks-header, .payment-history-header {
         display: flex;
